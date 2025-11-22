@@ -34,8 +34,9 @@ jobs:
         run: ls -la
 
       - name: Run preprocessing script
+        working-directory: preprocessing
         run: |
-          python preprocessing/automate_ugisugih.py
+          python automate_ugisugih_pipelineC.py
 
       - name: Show produced files
         run: |
