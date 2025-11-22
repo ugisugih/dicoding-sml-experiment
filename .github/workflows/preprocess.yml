@@ -36,7 +36,7 @@ jobs:
       - name: Run preprocessing script
         working-directory: preprocessing
         run: |
-          python automate_ugisugih_pipelineC.py
+          python automate_ugisugih.py
 
       - name: Show produced files
         run: |
